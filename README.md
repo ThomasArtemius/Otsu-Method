@@ -67,17 +67,23 @@ IoU (Intersection over Union) lebih fokus pada objek (*foreground*) dan tidak ak
 
 
 ### Accuracy
-
 | Threshold | Accuracy |
 |-----------|----------|
-| 169       | 0.8526   |
 | 170       | 0.8527   |
 | 171       | 0.8527   |
 | 172       | 0.8527   |
+| 169       | 0.8526   |
 | 173       | 0.8526   |
 
+
 ### IoU
+| Threshold | IoU    |
+|-----------|--------|
+| 177       | 0.7643 |
+| 178       | 0.7642 |
+| 176       | 0.7642 |
+| 179       | 0.7641 |
+| 175       | 0.7641 |
 
-
-
+## Histogram
 ![](https://github.com/ThomasArtemius/Otsu-Method/blob/main/histogram_best_metrics.png)
