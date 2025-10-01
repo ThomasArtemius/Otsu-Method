@@ -37,5 +37,27 @@ Maksudnya adalah, dalam metode *within-class variance*, nilai 0-139 adalah *back
 ## Result
 ![](https://github.com/ThomasArtemius/Otsu-Method/blob/main/Result.png)
 
-## Analysis
+### Analisis
+
+Dengan menggunakan *threshold* 140, ditemukan akurasi 83.06% dan IoU 71%. Tapi apakah benar threshold 140 adalah *threshold* terbaik?
+
+## Performa Berdasarkan Akurasi dan IoU
+
+Jika dalam proses segmentasi tidak memiliki *ground truth*, maka menggunakan varian terkecil dari *Within-class variance* sudah cukup. Namun, jika menggunakan *ground truth* maka yang memiliki IoU terbesarlah yang terbaik.
+
+Ada 4 komponen dasar dalam penghitungan akurasi dan IoU:
+- **True Positive (TP):** piksel yang dengan tepat memprediksi *foreground*.
+- **True Negative (TN):** piksel yang dengan tepat memprediksi *background*.
+- **False Positive (FP):** piksel yang tecara tidak tepat diprediksi sebagai *foreground* (*background* dianggap sebagai *foreground*).
+- **False Negative (FN):** pikel yang secara tidak tepat diprediksi sebagai *background* (piksel *foreground* dianggap sebagai *background*).
+
+### Akurasi
+$$\text{Accuracy} = \frac{TP + TN}{TP + TN + FP + FN}$$
+
+Akurasi mengukur persentase keseluruhan piksel yang dianggap benar. Dengan begitu, akurasi bisa dianggap sebagai metrik yang kurang tepat, karena jika suatu gambar memiliki *background* yang lebih besar, maka pasti memiliki nilai akurasi yang tinggi.
+
+### IoU
+$$\text{IoU} = \frac{\text{Intersection}}{\text{Union}} = \frac{TP}{TP + FP + FN}$$
+
+IoU (Intersection over Union) lebih fokus pada objek (*foreground*) dan tidak akan "terdistorsi" oleh nilai prediksi yang besar dari *background*.
 ![](https://github.com/ThomasArtemius/Otsu-Method/blob/main/histogram_best_metrics.png)
