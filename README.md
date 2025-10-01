@@ -1,7 +1,7 @@
 # Otsu-Method
 
 ## Introduction
-![](https://github.com/ThomasArtemius/Otsu-Method/blob/main/Image_otsu.jpg)
+![](https://github.com/ThomasArtemius/Otsu-Method/blob/main/Image_otsu%20min.jpg)
 
 ## Otsu Method Process
 ![](https://github.com/ThomasArtemius/Otsu-Method/blob/main/Otsu_Process.gif)
