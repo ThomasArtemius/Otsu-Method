@@ -10,4 +10,4 @@
 ![](https://github.com/ThomasArtemius/Otsu-Method/blob/main/Result.png)
 
 ## Analysis
-![](https://github.com/ThomasArtemius/Otsu-Method/blob/main/histogram.png)
+![](https://github.com/ThomasArtemius/Otsu-Method/blob/main/histogram_best_metrics.png)
