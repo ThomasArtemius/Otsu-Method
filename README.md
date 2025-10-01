@@ -99,3 +99,8 @@ Hasil lengkap bisa dilihat di [sini](https://github.com/ThomasArtemius/Otsu-Meth
 
 ## Histogram
 ![](https://github.com/ThomasArtemius/Otsu-Method/blob/main/histogram_best_metrics.png)
+
+Dari hasil penghitungan di atas bisa dilihat bahwa:
+- Threshold 140 adalah *threshold* yang memegang nilai *within-class variance* terkecil. Lebih cocok untuk *task* yang tidak memiliki *ground truth*
+- Threshold 170 adalah *threshold* yang memegang nilai akurasi tertinggi.
+- Threshild 177 adalah *threshold* yang memegang nilai IoU terbaik. Metrik yang cocok jika memiliki ground truth.
