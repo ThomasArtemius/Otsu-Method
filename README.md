@@ -64,6 +64,7 @@ IoU (Intersection over Union) lebih fokus pada objek (*foreground*) dan tidak ak
 ## Hasil Dari Metrik Within-Class Variance, Akurasi, dan IoU
 
 ### Within-Class Variance
+
 | Threshold | Within-Class Variance |
 |-----------|------------------------|
 | 140       | 1123.17                |
@@ -71,6 +72,8 @@ IoU (Intersection over Union) lebih fokus pada objek (*foreground*) dan tidak ak
 | 141       | 1123.52                |
 | 138       | 1123.95                |
 | 142       | 1124.36                |
+
+Hasil lengkap bisa dilihat di ![sini](https://github.com/ThomasArtemius/Otsu-Method/blob/main/Analysis_Sorted_by_Variance.csv)
 
 ### Accuracy
 | Threshold | Accuracy |
@@ -81,6 +84,7 @@ IoU (Intersection over Union) lebih fokus pada objek (*foreground*) dan tidak ak
 | 169       | 0.8526   |
 | 173       | 0.8526   |
 
+Hasil lengkap bisa dilihat di ![sini](https://github.com/ThomasArtemius/Otsu-Method/blob/main/Analysis_Sorted_by_Accuracy.csv)
 
 ### IoU
 | Threshold | IoU    |
@@ -90,6 +94,8 @@ IoU (Intersection over Union) lebih fokus pada objek (*foreground*) dan tidak ak
 | 176       | 0.7642 |
 | 179       | 0.7641 |
 | 175       | 0.7641 |
+
+Hasil lengkap bisa dilihat di ![sini](https://github.com/ThomasArtemius/Otsu-Method/blob/main/Analysis_Sorted_by_IoU.csv)
 
 ## Histogram
 ![](https://github.com/ThomasArtemius/Otsu-Method/blob/main/histogram_best_metrics.png)
