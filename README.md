@@ -73,7 +73,7 @@ IoU (Intersection over Union) lebih fokus pada objek (*foreground*) dan tidak ak
 | 138       | 1123.95                |
 | 142       | 1124.36                |
 
-Hasil lengkap bisa dilihat di ![sini](https://github.com/ThomasArtemius/Otsu-Method/blob/main/Analysis_Sorted_by_Variance.csv)
+Hasil lengkap bisa dilihat di [sini](https://github.com/ThomasArtemius/Otsu-Method/blob/main/Analysis_Sorted_by_Variance.csv)
 
 ### Accuracy
 | Threshold | Accuracy |
@@ -84,7 +84,7 @@ Hasil lengkap bisa dilihat di ![sini](https://github.com/ThomasArtemius/Otsu-Met
 | 169       | 0.8526   |
 | 173       | 0.8526   |
 
-Hasil lengkap bisa dilihat di ![sini](https://github.com/ThomasArtemius/Otsu-Method/blob/main/Analysis_Sorted_by_Accuracy.csv)
+Hasil lengkap bisa dilihat di [sini](https://github.com/ThomasArtemius/Otsu-Method/blob/main/Analysis_Sorted_by_Accuracy.csv)
 
 ### IoU
 | Threshold | IoU    |
@@ -95,7 +95,7 @@ Hasil lengkap bisa dilihat di ![sini](https://github.com/ThomasArtemius/Otsu-Met
 | 179       | 0.7641 |
 | 175       | 0.7641 |
 
-Hasil lengkap bisa dilihat di ![sini](https://github.com/ThomasArtemius/Otsu-Method/blob/main/Analysis_Sorted_by_IoU.csv)
+Hasil lengkap bisa dilihat di [sini](https://github.com/ThomasArtemius/Otsu-Method/blob/main/Analysis_Sorted_by_IoU.csv)
 
 ## Histogram
 ![](https://github.com/ThomasArtemius/Otsu-Method/blob/main/histogram_best_metrics.png)
