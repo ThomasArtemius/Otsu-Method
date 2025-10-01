@@ -60,4 +60,24 @@ Akurasi mengukur persentase keseluruhan piksel yang dianggap benar. Dengan begit
 $$\text{IoU} = \frac{\text{Intersection}}{\text{Union}} = \frac{TP}{TP + FP + FN}$$
 
 IoU (Intersection over Union) lebih fokus pada objek (*foreground*) dan tidak akan "terdistorsi" oleh nilai prediksi yang besar dari *background*.
+
+## Hasil Dari Metrik Within-Class Variance, Akurasi, dan IoU
+
+### Within-Class Variance
+
+
+### Accuracy
+
+| Threshold | Accuracy |
+|-----------|----------|
+| 169       | 0.8526   |
+| 170       | 0.8527   |
+| 171       | 0.8527   |
+| 172       | 0.8527   |
+| 173       | 0.8526   |
+
+### IoU
+
+
+
 ![](https://github.com/ThomasArtemius/Otsu-Method/blob/main/histogram_best_metrics.png)
