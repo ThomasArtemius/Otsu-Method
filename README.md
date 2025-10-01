@@ -35,7 +35,7 @@ Maksudnya adalah, dalam metode *within-class variance*, nilai 0-139 adalah *back
 ![](https://github.com/ThomasArtemius/Otsu-Method/blob/main/Otsu_Process%20min.gif)
 
 ## Result
-![](https://github.com/ThomasArtemius/Otsu-Method/blob/main/Result.png)
+![](https://github.com/ThomasArtemius/Otsu-Method/blob/main/Result_Within_Class.png)
 
 ### Analisis
 
