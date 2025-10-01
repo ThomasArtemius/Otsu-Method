@@ -64,7 +64,13 @@ IoU (Intersection over Union) lebih fokus pada objek (*foreground*) dan tidak ak
 ## Hasil Dari Metrik Within-Class Variance, Akurasi, dan IoU
 
 ### Within-Class Variance
-
+| Threshold | Within-Class Variance |
+|-----------|------------------------|
+| 140       | 1123.17                |
+| 139       | 1123.32                |
+| 141       | 1123.52                |
+| 138       | 1123.95                |
+| 142       | 1124.36                |
 
 ### Accuracy
 | Threshold | Accuracy |
